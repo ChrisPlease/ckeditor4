@@ -4,7 +4,7 @@ import copy from 'rollup-plugin-copy'
 module.exports = {
   root: resolve(__dirname, 'src'),
   alias: {
-    '/ckeditor/**': '../node_modules/ckeditor4/**'
+    '/ckeditor': '../node_modules/ckeditor4'
   },
   build: {
     base: '/',
